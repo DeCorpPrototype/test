@@ -1,0 +1,74 @@
+*  {
+    -moz-user-select: none;
+    -o-user-select:none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+#wrapper {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+#filemanager {
+    width: 100%;
+    min-height: 400px;
+}
+
+#filemanager-window-left,
+#filemanager-window-right {
+    width: 498px;
+    height: 400px;
+    float: left;
+    border: 1px solid #C4C4C4;
+}
+
+#filemanager-window-left {
+    border-right: none;
+}
+
+#filemanager-window-fileedit {
+    width: 100%;
+    float: left;
+}
+
+.filemanager-windowheader {
+    background-color: #F0F8FF;
+    width: 100%;
+    height: 30px;
+    padding-left: 10px;
+}
+
+.filemanager-windowheader-title {
+    line-height: 30px;
+}
+
+.filemanager-windowcontent {
+    padding: 10px;
+}
+
+.filemanager-windowcontent-element {
+    margin: 5px 0;
+    cursor: pointer;
+}
+
+.filemanager-windowcontent-element:hover {
+    background-color: #90CAF9;
+}
+
+.filemanager-windowcontent-element span {
+    line-height: 25px;
+}
+
+.material-icons {
+    float: left;
+    margin-right: 10px;
+    color: #1976D2;
+}
